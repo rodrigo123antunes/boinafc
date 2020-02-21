@@ -27,8 +27,6 @@ module.exports = {
             res.status(500).send({ error: err });
         }
 
-        console.log(arrayResponse);
-    
         return res.json(arrayResponse);
     }
 };
